@@ -1,0 +1,45 @@
+
+.app-card {
+    width: 17em;
+    height: 25em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+
+}
+
+.container-preco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;  
+}
+
+.btn2 {
+    width: 15em;
+}
+
+.container-list {
+
+    font-size: 2em;
+}
+
+

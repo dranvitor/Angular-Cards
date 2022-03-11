@@ -1,0 +1,25 @@
+<mat-card [style]="'background-color: ' + background + ';' + 'color: ' + cor + ';'" class="app-card">
+    <mat-card-header>
+    <mat-card-title class="container-titulo">{{titulo}}</mat-card-title>
+    <mat-card-title class="container-preco">{{preco}}</mat-card-title>
+</mat-card-header>
+
+<mat-list  class="container-list">
+    <mat-divider></mat-divider>
+    <mat-list-item> {{conteudo}} </mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>{{segundoConteudo}}</mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item>{{terceiroConteudo}}</mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
+
+  <mat-button-toggle-group  class="btn">
+  <button mat-stroked-button (click)="openSnackBar(message, action)" class="btn2">LEARN MORE</button>
+
+</mat-button-toggle-group>
+  
+</mat-card>
+
