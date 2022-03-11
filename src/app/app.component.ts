@@ -8,16 +8,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   
-  primeiroStorage = '500 GB Storage'
-  primeiroUser = '2 Users Allowed'
-  primeiroSendUp = 'Send up to 3 GB'
+  primeiroStorage:string ='500 GB Storage'
+  primeiroUser:string = '2 Users Allowed'
+  primeiroSendUp:string = 'Send up to 3 GB'
 
-  segundoStorage = '1 TB Storage'
-  segundoUser = '5 Users Allowed'
-  segundoSendUp = 'Send up to 10 GB'
+  segundoStorage:string = '1 TB Storage'
+  segundoUser:string = '5 Users Allowed'
+  segundoSendUp:string = 'Send up to 10 GB'
 
-  terceiroStorage = '2 TB Storage'
-  terceiroUser = '10 Users Allowed'
-  terceiroSendUp = 'Send up to 20 GB'
+  terceiroStorage:string = '2 TB Storage'
+  terceiroUser:string = '10 Users Allowed'
+  terceiroSendUp:string = 'Send up to 20 GB'
   
 }

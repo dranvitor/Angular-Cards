@@ -6,22 +6,9 @@
     align-items: center;
 }
 
-.primeiro-container   {
 
-
-   
-
-}
-.segundo-container {
+.container {
     transform: scale(1.08);
     z-index: 1;
   
-}
-
-
-
-.terceiro-container {
-   
-   
-
 }

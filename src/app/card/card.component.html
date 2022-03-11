@@ -6,15 +6,17 @@
 
 <mat-list  class="container-list">
     <mat-divider></mat-divider>
-    <mat-list-item> {{conteudo}} </mat-list-item>
+    <mat-list-item [style]="'color: ' + cor + ';'" > {{conteudo}} </mat-list-item>
     <mat-divider></mat-divider>
 
-    <mat-list-item>{{segundoConteudo}}</mat-list-item>
+    <mat-list-item [style]="'color: ' + cor + ';'">{{segundoConteudo}}</mat-list-item>
     <mat-divider></mat-divider>
 
-    <mat-list-item>{{terceiroConteudo}}</mat-list-item>
+    <mat-list-item [style]="'color: ' + cor + ';'">{{terceiroConteudo}}</mat-list-item>
     <mat-divider></mat-divider>
+    
   </mat-list>
+
 
   <mat-button-toggle-group  class="btn">
   <button mat-stroked-button (click)="openSnackBar(message, action)" class="btn2">LEARN MORE</button>
@@ -22,4 +24,6 @@
 </mat-button-toggle-group>
   
 </mat-card>
+
+
 

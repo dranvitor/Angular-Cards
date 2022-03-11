@@ -6,6 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
+    
 }
 
 .container-titulo {
@@ -14,7 +16,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1em;
-
 }
 
 .container-preco{
@@ -31,15 +32,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 2em;  
+    border-radius: 5px;
 }
 
 .btn2 {
     width: 15em;
 }
 
-.container-list {
-
-    font-size: 2em;
+/* .mat-list-item {
+    border-top: 1px  solid ;
+    margin: auto;
+    width: 50%;
 }
-
-
+ */

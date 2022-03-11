@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
@@ -35,22 +35,10 @@ action: string = 'Conteúdo'
 @Input()
 message: string = 'Conteúdo'
 
-
-
-
 constructor(private _snackBar: MatSnackBar) {}
 
 openSnackBar(message: string, action: string) {
   this._snackBar.open(message, action);
 }
 
-
-@Output()
-btnCLickEvent: EventEmitter<any> = new EventEmitter<any>()
-
-emitirEvento(evento: any): void {
-  this.btnCLickEvent.emit(evento)
-
-  
-
-}}
+}
