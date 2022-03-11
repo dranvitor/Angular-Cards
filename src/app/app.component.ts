@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  // Os retangulos são caracteres invisíveis, eles foram utilizados pois o mat-divider não estava permitindo nem alterar a cor da linha, nem alterar o tamanho delas. Portanto eu retirei o mat-divider e o substituí por borders, fazendo o tamanho das linhas ser aumentado junto ao texto.
+  // Os espaços são caracteres invisíveis, eles foram utilizados pois o mat-divider não estava permitindo nem alterar a cor da linha, nem alterar o tamanho delas. Portanto eu retirei o mat-divider e o substituí por borders, fazendo o tamanho das linhas ser aumentado junto ao texto.
   
   primeiroStorage:string ='⠀⠀⠀⠀500 GB Storage⠀⠀⠀⠀' 
   primeiroUser:string = '⠀⠀⠀⠀2 Users Allowed⠀⠀⠀⠀' 
