@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    
 }
 
 .container-titulo {
@@ -23,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .btn {
@@ -39,9 +38,15 @@
     width: 15em;
 }
 
-/* .mat-list-item {
-    border-top: 1px  solid ;
-    margin: auto;
-    width: 50%;
+.border1,.border2, .border3{
+    border-top: 1px solid;
+    box-sizing: border-box;
 }
- */
+
+.border3{
+    border-bottom: 1px solid;
+    box-sizing: border-box;  
+}
+
+
+   

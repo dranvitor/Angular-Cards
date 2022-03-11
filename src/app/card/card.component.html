@@ -4,25 +4,20 @@
     <mat-card-title class="container-preco">{{preco}}</mat-card-title>
 </mat-card-header>
 
-<mat-list  class="container-list">
-    <mat-divider></mat-divider>
-    <mat-list-item [style]="'color: ' + cor + ';'" > {{conteudo}} </mat-list-item>
-    <mat-divider></mat-divider>
-
-    <mat-list-item [style]="'color: ' + cor + ';'">{{segundoConteudo}}</mat-list-item>
-    <mat-divider></mat-divider>
-
-    <mat-list-item [style]="'color: ' + cor + ';'">{{terceiroConteudo}}</mat-list-item>
-    <mat-divider></mat-divider>
-    
+<mat-list >
+    <mat-list-item class="border1"  [style]="'color: ' + cor + ';'" > {{conteudo}}</mat-list-item>
   </mat-list>
 
-
+<mat-list  >
+    <mat-list-item class="border2"  [style]="'color: ' + cor + ';'">{{segundoConteudo}}</mat-list-item>
+  </mat-list>
+<mat-list>
+    <mat-list-item class="border3" [style]="'color: ' + cor + ';'">{{terceiroConteudo}}</mat-list-item>
+  </mat-list >
+  
   <mat-button-toggle-group  class="btn">
   <button mat-stroked-button (click)="openSnackBar(message, action)" class="btn2">LEARN MORE</button>
-
 </mat-button-toggle-group>
-  
 </mat-card>
 
 
